@@ -17,12 +17,12 @@ let dx = 12;
 let dy = 8;
 let x = Math.round(Math.random()*(window.innerWidth-50-dx));
 let y = Math.round(Math.random()*(window.innerHeight-50-dy));
-let prevValue = {x,y};
+
 action()
 function action(){
 
     requestAnimationFrame(action);
-    
+
     c.clearRect(0,0,window.innerWidth,window.innerHeight);
 
     //text
